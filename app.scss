@@ -1,0 +1,6 @@
+.form-group label> .description{
+  display:none;
+}
+.form-group input[type="radio"]:checked ~ .description{
+  display:block;
+}
